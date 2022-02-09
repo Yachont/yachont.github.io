@@ -80,6 +80,8 @@ select {
 
 * {
   color: white;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
 }
 
 .page-background {
@@ -120,7 +122,6 @@ nav {
   display: flex;
   align-items: center;
   margin: 20px;
-  font-family: "Outfit", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -134,7 +135,6 @@ a {
   display: flex;
   justify-content: end;
   align-items: center;
-  font-family: "Outfit", sans-serif;
   font-weight: 700;
 }
 
@@ -145,9 +145,35 @@ ul {
 
 li {
   padding: 40px;
+  font-size: 22px;
 }
 
-p {
+/* p {
   padding: 20px;
-  font-size: 3rem;
+  font-size: 2rem;
+  COMMENTED OUT BECAUSE I SHOULD PROBABLY USE h3 INSTEAD OF PARAGRAPHS (at least for the moment)
+} */
+
+.section-create-example-function {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
 }
+
+/* h3 {
+  font-size: 1rem;
+  LIKE I SAID BELOW DEFINE h1 to h6 or think about it idk
+} */
+
+button {
+  color: black;
+}
+/* DEFINE h1 TO h6 OR STH FOR QUICKER AND EASIER IMPLEMENTATION OF DIFFERENT FONT WEIGHTS AND FONT SIZE TY*/
+/* h1: LOGO FONT
+h2: LINKS IN NAVBAR
+h3: General text
+h4: links in general text
+h5: footnotes / small text? */
