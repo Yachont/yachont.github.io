@@ -1,3 +1,5 @@
+# WICHTIG: DIESE WEBSEITE WIRD MOMENTAN AKTIV ENTWICKELT UND IST NOCH IN KEINSTER WEISE FUNKTIONSFÄHIG
+
 # Newtonverfahren
 Eine Website zur visuellen Demonstration vom Newtonverfahren.
 Erstellt für ein Fachreferat im Fach Mathematik Additum.
