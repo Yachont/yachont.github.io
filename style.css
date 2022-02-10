@@ -115,7 +115,7 @@ nav {
 
 .logo-newton {
   clip-path: circle(40%);
-  width: 100px;
+  /* width: 50px; */
 }
 
 .logo-text {
