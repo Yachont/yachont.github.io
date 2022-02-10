@@ -177,3 +177,13 @@ h2: LINKS IN NAVBAR
 h3: General text
 h4: links in general text
 h5: footnotes / small text? */
+
+.section-qrcode {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
+
+.img-qrcode{
+  width: 400px;
+}
