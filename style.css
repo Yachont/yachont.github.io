@@ -191,7 +191,7 @@ h5: footnotes / small text? */
 
 /* NOT SURE ABOUT MAX-WIDTH: 1200px AS IT'S QUITE A LOT, maybe change later after some testing */
 /* this media query centers all the navbar items to give that new modern centered text UI trend */
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   nav {
     height: 200px;
     flex-direction: column;
