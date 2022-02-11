@@ -101,7 +101,7 @@ nav {
   display: flex;
   /* flex-direction: row; */
   justify-content: start;
-  width: 1200px;
+  width: 1200px; /*Check For Device Width, Then Set To X Percent Of Device Width*/
   background-color: hsl(0, 0%, 12%); /*set to 12% when done ty*/
   /* height: 100px; */
 }
@@ -187,3 +187,11 @@ h5: footnotes / small text? */
 .img-qrcode{
   width: 400px;
 }
+
+
+@media (width <= 1200 {
+  .nav-container{
+    width: 700px
+  }
+}
+/*Media Query Temporary!!!!!*/
