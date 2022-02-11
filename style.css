@@ -189,8 +189,8 @@ h5: footnotes / small text? */
 }
 
 
-@media (width <= 1200 {
-  .nav-container{
+@media (width <= 1200) {
+  .nav-container {
     width: 700px
   }
 }
