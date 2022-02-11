@@ -74,8 +74,8 @@ select {
 }
 
 /* ================================================= */
-/* end of css reset */
-/* start of css styles */
+              /* end of css reset */
+              /* start of css styles */
 /* ================================================= */
 
 * {
@@ -94,12 +94,13 @@ nav {
   flex-direction: row;
   justify-content: center;
   background-color: hsl(0, 0%, 12%);
+  width: 100vw;
   height: 100px;
 }
 
 .nav-container {
   display: flex;
-  /* flex-direction: row; */
+  flex-direction: row;
   justify-content: start;
   width: 1200px; /*Check For Device Width, Then Set To X Percent Of Device Width*/
   background-color: hsl(0, 0%, 12%); /*set to 12% when done ty*/
@@ -188,10 +189,34 @@ h5: footnotes / small text? */
   width: 400px;
 }
 
-/*Media Query Temporary / not final!!!!!*/
-@media (width < 1200px) {
+/* NOT SURE ABOUT MAX-WIDTH: 1200px AS IT'S QUITE A LOT, maybe change later after some testing */
+/* this media query centers all the navbar items to give that new modern centered text UI trend */
+@media (max-width: 1200px) {
+  nav {
+    height: 200px;
+    flex-direction: column;
+  }
+
+  .nav-container {
+    width: 100vw;
+    align-items: center;
+    height: inherit;
+    flex-direction: column;
+  }
+
+  .startpage-logo {
+    height: 100px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .logo-newton {
+    width: 100px;
+  }
+  
   .nav-links-right {
-    display: none;
+    height: 100px;
+    align-items: center;
     }
+
 }
-/* works on firefox, but not chrome? */
