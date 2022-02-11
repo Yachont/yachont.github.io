@@ -10,3 +10,5 @@ var applet = new GGBApplet(params, true);
 window.addEventListener("load", function () {
   applet.inject("ggb-element");
 });
+
+// CHECK GITHUB "ISSUES" FOR IDEAS N STUFF

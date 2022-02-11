@@ -216,6 +216,13 @@ h5: footnotes / small text? */
   background: hsl(0, 0%, 30%);
 }
 
+.ggb-element {
+  --ggb-primary-color: #ee0290; /* used for most UI elements, including the toolbar header and buttons */
+  --ggb-primary-variant-color: #880061; /* used for floating buttons on hover */
+  --ggb-dark-color: #880061; /* used for highlighted text in dialogs */
+  --ggb-light-color: #f186c0; /* used for progress bar */
+}
+
 /* ---------------------------- */
 
 /* this media query centers all the navbar items to give that new modern centered text UI trend, at least that's the goal ig. looks neat */
