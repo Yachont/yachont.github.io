@@ -210,8 +210,10 @@ h5: footnotes / small text? */
 /* ---------------------------- */
 
 .section-ggb {
-  height: 40vh;
-  background: rgb(27, 30, 199);
+  display: grid;
+  place-items: center;
+  height: fit-content;
+  background: hsl(0, 0%, 30%);
 }
 
 /* ---------------------------- */
