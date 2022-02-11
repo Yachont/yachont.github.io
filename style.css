@@ -89,6 +89,8 @@ select {
   background-color: hsl(0, 0%, 20%);
 }
 
+/* --------------------------------------- */
+
 nav {
   display: flex;
   flex-direction: row;
@@ -102,13 +104,14 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  width: 1200px; /*Check For Device Width, Then Set To X Percent Of Device Width*/
+  width: 1100px; /*Check For Device Width, Then Set To X Percent Of Device Width*/
   background-color: hsl(0, 0%, 12%); /*set to 12% when done ty*/
   /* height: 100px; */
 }
 
 .startpage-logo {
   display: flex;
+  width: fit-content;
   flex: 1;
 
   /* margin: 20px; */
@@ -116,13 +119,15 @@ nav {
 
 .logo-newton {
   clip-path: circle(40%);
+  justify-content: baseline;
   /* width: 50px; */
 }
 
 .logo-text {
   display: flex;
   align-items: center;
-  margin: 20px;
+  margin: 10px;
+  font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -134,7 +139,6 @@ a {
 
 .nav-links-right {
   display: flex;
-  justify-content: end;
   align-items: center;
   font-weight: 700;
 }
@@ -145,10 +149,11 @@ ul {
 }
 
 li {
-  padding: 40px;
-  font-size: 22px;
+  /* justify-content: end; */
+  padding: 30px;
+  font-size: 1.4rem;
 }
-
+/* --------------------------------- */
 /* p {
   padding: 20px;
   font-size: 2rem;
@@ -162,7 +167,18 @@ li {
   height: 200px;
   align-items: center;
   justify-content: center;
+  /* margin-left: 10%; */
 }
+
+/* .section-create-example-function-container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+} */
 
 /* h3 {
   font-size: 1rem;
@@ -179,6 +195,8 @@ h3: General text
 h4: links in general text
 h5: footnotes / small text? */
 
+/* -------------------------------- */
+
 .section-qrcode {
   display: grid;
   place-items: center;
@@ -189,34 +207,61 @@ h5: footnotes / small text? */
   width: 400px;
 }
 
-/* NOT SURE ABOUT MAX-WIDTH: 1200px AS IT'S QUITE A LOT, maybe change later after some testing */
-/* this media query centers all the navbar items to give that new modern centered text UI trend */
-@media (max-width: 800px) {
+/* ---------------------------- */
+
+
+/* this media query centers all the navbar items to give that new modern centered text UI trend, at least that's the goal ig. looks neat */
+
+/*align logo and logo text and stack them on top of each other or just make logo text smaller. not sure if worth the effort cuz i cant get it to work lol*/
+@media (max-width: 900px) {
   nav {
-    height: 200px;
+    height: min-content;
     flex-direction: column;
   }
 
   .nav-container {
     width: 100vw;
     align-items: center;
-    height: inherit;
     flex-direction: column;
   }
 
   .startpage-logo {
-    height: 100px;
-    flex-direction: row;
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .logo-newton {
-    width: 100px;
+    width: 90px;
+    margin: 10px;
+  }
+
+  .logo-text{
+    font-size: 1.3rem;
   }
   
   .nav-links-right {
-    height: 100px;
+    height: 50px;
+    padding-bottom: 30px;
     align-items: center;
     }
 
-}
+  li {
+    justify-content: space-evenly;
+    padding-left: 0px;
+    margin: 2px;
+    /* padding-left: 0px; */
+    /* margin: 0px; */
+    /* font-size: 1.4rem; */
+  }
+
+  .section-create-example-function-container {
+      display: flex;
+      flex-direction: column;
+      width: 80vw;
+      /* height: 200px; */
+      align-items: center;
+      justify-content: center;
+      /* margin-left: 10%; */
+    }
+  }
