@@ -188,10 +188,10 @@ h5: footnotes / small text? */
   width: 400px;
 }
 
-
-@media (width <= 1200) {
+/*Media Query Temporary / not final!!!!!*/
+@media (width < 1200px) {
   .nav-links-right {
     display: none;
     }
 }
-/*Media Query Temporary!!!!!*/
+/* works on firefox, but not chrome? */
