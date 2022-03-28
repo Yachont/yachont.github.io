@@ -1,7 +1,7 @@
 var params = {
   appName: "graphing",
-  width: 1000,
-  height: 800,
+  width: 1200,
+  height: 700,
   showToolBar: true,
   showAlgebraInput: true,
   showMenuBar: true,
