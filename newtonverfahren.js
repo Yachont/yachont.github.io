@@ -5,3 +5,4 @@
 // 4. optionally compare with geogebra but that's a hassle
         // and unnecessary as result should be good enough.
 
+// dont forget to reference this js file in all html files =D
