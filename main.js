@@ -11,4 +11,5 @@ window.addEventListener("load", function () {
   applet.inject("ggb-element");
 });
 
-// CHECK GITHUB "ISSUES" FOR IDEAS N STUFF
+// CHECK GITHUB "ISSUES" FOR IDEAS N STUFF.
+// android keyboard input for ggb oh no...
