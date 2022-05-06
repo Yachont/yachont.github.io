@@ -79,7 +79,7 @@ select {
 /* ================================================= */
 
 * {
-  color: white;
+  /* color: white; YOU. */
   font-family: "Outfit", sans-serif;
   font-weight: 400;
 }
@@ -130,6 +130,7 @@ nav {
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
+  color: white;
 }
 
 a {
@@ -146,6 +147,10 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+}
+
+.nav-links-right>ul>a>li{
+  color: white;
 }
 
 li {
@@ -167,6 +172,7 @@ li {
   height: 200px;
   align-items: center;
   justify-content: center;
+  color: white;
   /* margin-left: 10%; */
 }
 
@@ -179,6 +185,10 @@ li {
   justify-content: center;
   margin-left: 10%;
 } */
+
+.section-create-example-function{
+  visibility: hidden;
+}
 
 /* h3 {
   font-size: 1rem;
