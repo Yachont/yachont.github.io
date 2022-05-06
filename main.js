@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var params = {
    appName: "cas",
    width: 1200,
@@ -13,6 +14,14 @@ var params = {
 var applet = new GGBApplet(params, true);
 window.addEventListener("load", function () {
    applet.inject("ggb-element");
+=======
+console.log("main.js says hi!");
+
+document.getElementById("create-example-function").addEventListener("click", function(){
+    console.log("the button says hi and sup");
+>>>>>>> daec5eb7f0f7670833e99c056562cb21b7f86b58
 });
 
-// CHECK GITHUB "ISSUES" FOR IDEAS N STUFF.
+// function clgHi() {
+//     console.log("the button says hi and sup");
+// }

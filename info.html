@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;800&display=swap" rel="stylesheet">
+
+    <!-- GeoGebra Integration -->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
 </head>
 
 <body>
@@ -26,7 +29,7 @@
                 </div>
                 <div class="nav-links-right">
                     <ul>
-                        <!-- INFO: REFERENCE OF NEWTON METHOD LIKE WIKIPEDIA AND PAPERS -->
+                        <!-- INFO: REFERENCE OF NEWTON METHOD LIKE WIKIPEDIA AND PAPERS, general itarative methods -->
                         <a href="info.html">
                             <li>Info</li>
                         </a>
@@ -42,13 +45,25 @@
                 </div>
             </div>
         </nav>
-        <section class="section-qrcode">
-            <img src="img/QR_CODE_URL.png" alt="QR-CODE" class="img-qrcode">
+
+        <section class="section-create-example-function">
+            <div class="section-create-example-function-container">
+                <h2>Drücke den Knopf um eine Beispielfunktion zu erstellen. (prints "Hi!" to console for now.)</h2>
+                <button id="create-example-function" onclick="clgHi()">TEST</button>
+            </div>
+        </section>
+
+        <section class="section-ggb">
+            <div id="ggb-element">
+
+            </div>
         </section>
 
     </div>
 
+    <script src="geogebra.js"></script>
     <script src="main.js"></script>
+</body>
 </body>
 
 </html>
